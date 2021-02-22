@@ -1,0 +1,98 @@
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    margin-top: 4%
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+}
+#btnVolver{
+    color: black;
+    position: absolute;
+    left: 45px;
+}
+#btnVolver i {
+    font-size: 60px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+#content-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#content-form div{
+    display: flex;
+    align-items: baseline;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px;
+}
+#content-form div i {
+    height: 100%;
+    font-size: 20px;
+    width: 10%;
+    margin-left: 5%;
+}
+#content-form div input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+#content-form button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+#content-form #register{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+}
+#content-form #register * {
+    color: black;
+    margin-top: -20px;
+}
+
+#contentUsuario{
+    width: 40%;
+    min-width: 250px;
+    border: 4px solid black;
+    padding: 10px;
+}
+#contentUsuario * {
+    margin-top: 30px;
+}
+#contentUsuario h1{
+    color: white;
+    text-align: center;
+}
+
+#contentUsuario div:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+#contentUsuario div button{
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
